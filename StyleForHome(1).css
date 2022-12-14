@@ -1,0 +1,85 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    width : 100%;
+    height: 86%;
+    background: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.623)),url('../imgs/bg shop.jpg') ;
+    background-size: cover;
+}
+
+b{
+    position: relative;
+    left: 855px;
+    top: 60px;
+    width: 300px;
+    height: 33px;
+    margin: 10x;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 29px;
+    background-color: rgba(255, 255, 255, 0.603);
+    color: rgb(139, 194, 156);
+    text-shadow: -1px 0 rgb(141, 122, 122), 0 1px rgb(124, 103, 103), 1px 0 rgb(14, 12, 12), 0 -1px black;
+    border-radius: 10%;
+}
+
+li{
+    width: 300px;
+    height: 33px;
+    margin-top: 5px;
+    top: 155px;
+    left: 555px;
+    position: relative; 
+    list-style: none;
+    padding: 0 20px;
+    border-radius: 55px;
+    background-color: rgba(245, 245, 220, 0.61);
+}
+
+li a{
+    text-decoration-color: rgb(241, 155, 101);
+    font-family:monospace;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+li a:hover{
+    color: rgb(45, 98, 119);
+}
+
+button {
+    margin: 600px 400px 0px 400px;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+

@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta content=“width=device-width, initial-scale=1.0”>
+    <title>Website</title>
+    <link rel="stylesheet" href="styles/style test.css">
+</head>
+<body>
+    <section id="headers">
+        <a href="#"><img src="imgs/logo website.png" class="logo"  width="180px" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="loginpage">
+        <section id="Welcome-layout">
+            <h1>Welcome</h1>
+            <h4>There's more to discover in store</h4>
+            <h4>when you</h4>
+            <h3>shop at AtoZ</h3>
+            <button onclick="getstarted()"> Get Started</button>
+            <h6 id="describe" col></h6>
+        </section>
+        <div class="form-box" id="login-form">
+            <h1 id="box-description">Log in Page</h1>
+            <div class="social-icons">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank"><img src="imgs/fcb.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank"><img src="imgs/twt.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank"><img src="imgs/insta.png"></a>
+                    </li>
+                </ul>
+            </div>
+            <form id="login" class="input-group" name="myForm">
+                <p>Username</p>
+                <input type="text" name="Uname" class="input-field" placeholder="Enter Username" required>
+                <p>Password</p>
+                <input type="password" name="Pass" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="button" class="submit-btn" onclick="location.href = 'HOME WEBPAGE (3).html'"><h4>Log in</h4></button>
+                <br>
+                <a href="mailto:user@example.com">Forgot your password?</a>
+                <br>
+                <a href="#">Don't have an account?</a>
+                <a href="HTMLPage1 (1).html">Join Us Now</a>
+            </form>
+        </div>            
+    </div>
+    <script>
+        function getstarted(){
+            document.getElementById("describe").innerHTML = "Welcome...\n let's get started by loging in"
+        } 
+       
+    </script>
+</body>
+</html>

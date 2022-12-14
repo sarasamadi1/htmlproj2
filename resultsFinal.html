@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    </head>
+    <body>
+        <link rel="stylesheet" href="styles/styleForResults.css">
+        <p id="searchresults">
+            Search results: (click listing name for more info)</p>
+            <br><br>
+            <label id="add2FAV">
+                <button id="" onclick="add2fav()">Add checked to My Favorites</button>
+            </label>
+        <p id="added2Fav"></p>
+        <input type="checkbox" name="listing1">
+        <button style="border:0;background-color:#fff" onclick="showlisting1()">
+            Arçelik Washing Machine Model x32rd
+        </button>
+        <p id="listingInfo1"></p>
+        <p>Item price: $500</p>
+        <button onclick="contact1()">Contact seller</button>
+        <p id="email1"></p>
+        <button onclick="buyitnow1()">Buy it now</button>
+        <p id="buy1"></p>
+        <br><br>
+        <input type="checkbox" name="listing2">
+        <button style="border:0;background-color:#fff" onclick="showlisting2()">
+            Apple Macbook Pro
+        </button>
+        <p id="listingInfo2"></p>
+        <p>Item price: $800</p>
+        <button onclick="contact2()">Contact seller</button>
+        <p id="email2"></p>
+        <button onclick="buyitnow2()">Buy it now</button>
+        <p id="buy2"></p>
+        <br><br>
+        <input type="checkbox" name="listing3">
+        <button style="border:0;background-color:#fff" onclick="showlisting3()">
+            Samsung Vacuum Cleaner
+        </button>
+        <p id="listingInfo3"></p>
+        <p>Item price: $200</p>
+        <button onclick="contact3()">Contact seller</button>
+        <p id="email3"></p>
+        <button onclick="buyitnow3()">Buy it now</button>
+        <p id="buy3"></p>
+        <br><br>
+        <input type="checkbox" name="listing4">
+        <button style="border:0;background-color:#fff" onclick="showlisting4()">
+            Monster Gaming Station
+        </button>
+        <p id="listingInfo4"></p>
+        <p>Item price: $1000</p>
+        <button onclick="contact4()">Contact seller</button>
+        <p id="email4"></p>
+        <button onclick="buyitnow4()">Buy it now</button>
+        <p id="buy4"></p>
+        </p>
+        <script>
+            var l1info = "Type: Buy it now, Category: Electronics, Condition: New, Listing ID: 2021789234, Listing date: April 1st 2021, Seller name: Trendyol\n";
+            var l2info = "Type: Buy it now, Category: Computers, Condition: Used, Listing ID: 2020958128, Listing date: June 23rd 2020, Seller name: Getir\n";
+            var l3info = "Type: Buy it now, Category: Electronics, Condition: Used, Listing ID: 2021627904, Listing date: September 14th 2021, Seller name: Letgo\n";
+            var l4info = "Type: Buy it now, Category: Computers, Condition: New, Listing ID: 2019920471, Listing date: March 2nd 2019, Seller name: Hepsiburada\n";
+            function showlisting1() {
+                document.getElementById("listingInfo1").innerHTML = l1info;
+            };
+            function showlisting2() {
+                document.getElementById("listingInfo2").innerHTML = l2info;
+            };
+            function showlisting3() {
+                document.getElementById("listingInfo3").innerHTML = l3info;
+            };
+            function showlisting4() {
+                document.getElementById("listingInfo4").innerHTML = l4info;
+            };
+            function add2fav() {
+                document.getElementById("added2Fav").innerHTML = "Added checked to My Favorites";
+            };
+            function contact1() {
+                document.getElementById("email1").innerHTML = "trendyol@shop.com";
+            };
+            function contact2() {
+                document.getElementById("email2").innerHTML = "getir@shop.com";
+            };
+            function contact3() {
+                document.getElementById("email3").innerHTML = "letgo@shop.com";
+            };
+            function contact4() {
+                document.getElementById("email4").innerHTML = "hepsiburada@shop.com";
+            };
+            function buyitnow1() {
+                document.getElementById("buy1").innerHTML = "Redirecting to billing page...";
+            };
+            function buyitnow2() {
+                document.getElementById("buy2").innerHTML = "Redirecting to billing page...";
+            };
+            function buyitnow3() {
+                document.getElementById("buy3").innerHTML = "Redirecting to billing page...";
+            };
+            function buyitnow4() {
+                document.getElementById("buy4").innerHTML = "Redirecting to billing page...";
+            };
+        </script>
+    </body>
+</html>

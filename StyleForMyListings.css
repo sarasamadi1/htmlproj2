@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    margin : 0;
+    justify-content: center;
+    align-items: center;
+    background-position: contain;
+    background-image: linear-gradient(rgba(36, 73, 67, 0.281),rgba(232, 236, 234, 0.4),rgba(130, 177, 153, 0.4));
+}
+
+#header{
+    position: absolute;
+    top: 50px;
+    border: rgba(211, 211, 211, 0.568);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(139, 194, 156);
+    text-shadow: -1px 0 rgb(141, 122, 122), 0 1px rgb(124, 103, 103), 1px 0 rgb(14, 12, 12), 0 -1px black;
+
+}
+
+input{
+    border: solid black;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.527);
+    border-radius: 3px;
+}
+
+p{
+    background-color: rgba(255, 255, 255, 0.616);
+    box-shadow: rgba(0, 0, 0, 0.308) 1px 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+input[type=checkbox]{
+    margin: 5px;
+    padding: 10px;
+}
+
+button{
+    margin: 6px 0px;
+    cursor: pointer;
+    color: rgba(68, 134, 93, 0.603);
+    font-weight: 600;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.527);
+}
+
+
+
+

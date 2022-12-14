@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    height: 95vh;
+    background-image: linear-gradient(rgba(36, 73, 67, 0.281),rgba(232, 236, 234, 0.4),rgba(130, 177, 153, 0.4));
+}
+
+h1{
+    background-color: rgba(240, 248, 255, 0.534);
+    margin: -3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(139, 194, 156);
+    text-shadow: -1px 0 rgb(141, 122, 122), 0 1px rgb(124, 103, 103), 1px 0 rgb(14, 12, 12), 0 -1px black;
+    text-align: center;
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cards div{
+    position: relative;
+    width: 240px;
+    height: 300px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(14, 13, 13, 0.61);
+}
+
+.cards div:hover{
+    box-sizing: content-box;
+}
+
+.cards div img{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border: 1px solid lightblue;
+    right: 10px;
+}
+
+.cards div p{
+    color: rgb(19, 109, 139);
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
+.cards div button{
+    position: relative;
+    background: rgba(199, 183, 112, 0.356);
+    cursor: pointer;
+}
+
+.cards div button:hover{
+    background-color: burlywood;
+}

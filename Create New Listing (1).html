@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create New Listing</title>
+		<link rel="stylesheet" href="styles/StyleforListingFiltering.css">
+    </head>
+    <body>
+		<p id="header">
+			Create New Listing
+		</p>
+		<hr>
+		<div action="">
+			<div class="wrap">
+			<p>Listing type:</p>
+			<input type="radio" id="rad1" name="type" value="buy it now"> 
+			<label for="rad1" class="radios"> buy it now</label>
+			<br>
+			<input type="radio" id="rad2" name="type" value="auction"> 
+			<label for="rad2" class="radios">auction</label>
+			<br>
+		    <p>Category:</p>
+			<input type="radio" id="rad3" name="Category" value="electronics"> 
+			<label for="rad3" class="radios">electronics</label>
+			<br>
+			<input type="radio" id="rad4" name="Category" value="computers"> 
+			<label for="rad4" class="radios">computers</label>
+			<br>
+		    <p>Condition:</p>
+			<input type="radio" id="rad5" name="Condition" value="new"> 
+			<label for="rad5" class="radios">new</label>
+			<br>
+			<input type="radio" id="rad6" name="Condition" value="used"> 
+			<label for="rad6" class="radios">used</label>
+			<br>
+			
+			</div>
+			
+		<p>Brand:</p><input type="text" name="Brand"  maxlength="24">
+		
+		<form action="/client.php" method="POST" enctype="multipart/form-data">
+		<label><p>Picture(s)</p><br> <input type="file" name="photo"></label> </form>
+		
+		<p>Description:</p>
+		<textarea name="Description" rows="6" cols="64"></textarea>
+		
+		<p>Item price:</p><input type="text" name="Item price"  maxlength="24"><em>(if you chose Buy it now)</em>
+		<p>Initial bid:</p><input type="text" name="Initial bid"  maxlength="24"><em>(if you chose Auction)</em>
+    
+		<br>
+		<input type="submit">
+	    </div>
+    </body>
+</html>
